@@ -4,5 +4,7 @@ def square_array(array)
   while array[counter] do 
     puts array.at(counter)**2
     counter += 1 
+    array.concat(new_array)
+    p new_array
   end
 end
