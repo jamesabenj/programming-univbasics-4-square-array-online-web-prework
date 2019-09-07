@@ -1,9 +1,7 @@
 def square_array(array)
   counter = 0 
-  new_numbers = Array.new(array)
   while array[counter] do 
-    array[counter]**2
-    puts new_numbers
+    puts array.new(array[counter]**2)
     counter += 1 
   end
 end
