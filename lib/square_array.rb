@@ -5,6 +5,6 @@ def square_array(array)
     puts array.at(counter)**2
     counter += 1 
     array.concat(new_numbers)
-    p new_array
+    p new_numbers
   end
 end
